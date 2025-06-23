@@ -72,12 +72,29 @@
   margin-left: 150px
 }
 body {
-  background-color: #c4ae78;
+  background-color: #94c973;
 }
 
-.about-me-text {
+.important-text {
   border: 5px solid black;
   background-color: white;
-  display: flex;
-  justify-content: space-evenly;
+  
+  
+  padding: 5px;
+
+}
+
+.projectImg, .project-img {
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.cover-photo {
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 90%;
+  border: 5px solid grey;
+  
 }
