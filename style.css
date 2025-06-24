@@ -68,11 +68,7 @@
 }
 
 
-.contact-img, .contactImg{
-  width: 20%;
-  margin: 10px;
-  transition: box-shadow 0.3s ease;
-}
+
 
 
 
@@ -93,8 +89,14 @@ body {
 }
 
 .projectImg, .project-img {
-  width: 500px;
+  width: 40%;
   height: 250px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-img, .contactImg{
+  width: 20%;
   margin: 10px;
   transition: box-shadow 0.3s ease;
 }
@@ -109,4 +111,64 @@ body {
 
 .resume-img {
   width: 50%
+}
+
+.skill-img {
+  width: 40%;
+}
+.about-and-skills {
+  display: flex;
+  gap: 20px; /* Space between the two sections */
+  align-items: flex-start; /* Align to the top */
+}
+
+.important-text, .skills-div {
+  flex: 1; /* Make both divs take equal width */
+}
+
+@media screen and (max-width: 768px) {
+  .about-and-skills {
+    flex-direction: column;
+  }
+}
+
+.skills-div {
+  background-color: white;
+  border: 5px solid black;
+  height: 220px;
+  padding: 5px;
+}
+
+.skills-content {
+  display: flex;
+  gap: 20px; /* space between text and image */
+  align-items: center; /* vertically align items */
+}
+
+.skills-content p {
+  flex: 1; /* allow the paragraph to take available space */
+}
+
+.skill-img {
+  width: 200px; /* set a fixed width or percentage */
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-img {
+    width: 100%; /* full width on small screens */
+  }
+}
+
+
+
+p, h2 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
