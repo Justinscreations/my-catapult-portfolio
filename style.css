@@ -172,3 +172,7 @@ p, h2 {
   font-weight: 400;
   font-style: normal;
 }
+
+.contact-img:hover, .contactImg:hover {
+  box-shadow: 5px 5px 50px #111;
+}
