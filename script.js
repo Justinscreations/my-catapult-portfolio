@@ -1,6 +1,7 @@
 let projectImg1 = document.querySelector(".projectImg")
 let projectImg2 = document.querySelector(".project-img")
-
+let contactImg1 = document.querySelector(".contact-img");
+let contactImg2 = document.querySelector(".contactImg")
 
 
 
@@ -32,5 +33,23 @@ projectImg2.addEventListener("mouseover", () => {
 
 projectImg2.addEventListener("mouseout", () => {
   projectImg2.style.boxShadow = "none";
+
+})
+
+contactImg1.addEventListener("mouseover", () => {
+  contactImg1.style.boxShadow = "5px 5px 50px #111";
+})
+
+contactImg1.addEventListener("mouseout", () => {
+  contactImg1.style.boxShadow = "none";
+
+})
+
+contactImg2.addEventListener("mouseover", () => {
+  contactImg2.style.boxShadow = "5px 5px 50px #111";
+})
+
+contactImg2.addEventListener("mouseout", () => {
+  contactImg2.style.boxShadow = "none";
 
 })
