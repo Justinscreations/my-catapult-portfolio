@@ -191,3 +191,13 @@ p, h2 {
   min-height: 100vh;
   
 }
+
+hr.rounded {
+  border-top: 700px solid black;
+  border-radius: 5px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
