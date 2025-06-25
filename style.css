@@ -76,14 +76,14 @@
   margin-left: 150px
 }
 body {
-  background-color: #94c973;
+  background-color: #82cb78
+
+;
 }
 
 .important-text {
   border: 5px solid black;
   background-color: white;
-  
-  
   padding: 5px;
 
 }
@@ -183,4 +183,11 @@ p, h2 {
   box-shadow: 5px 5px 50px #111;
 }  
 
- 
+ .background {
+  background-image: url("coverPhoto.png"); /* Relative path */
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  
+}
