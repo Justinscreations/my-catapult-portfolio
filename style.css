@@ -97,6 +97,7 @@ body {
 
 .contact-img, .contactImg{
   width: 20%;
+  border-radius: 35px;
   margin: 10px;
   transition: box-shadow 0.3s ease;
 }
@@ -178,6 +179,8 @@ p, h2 {
 .contact-img:hover, .contactImg:hover {
   box-shadow: 5px 5px 50px #111;
 }
+
+
 
 
 /* Makes a shadow for the images listed above and below */
