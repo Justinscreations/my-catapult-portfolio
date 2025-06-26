@@ -22,9 +22,24 @@
 </div>
 <div id="main">
   <button id="openBtn" class="openbtn" onclick="openNav()">&#9776; </button>
-  <div class="important-text">
+  <div class="important-contact-text">
         <h2>How to contact me: </h2>
-
+            <div class="contact-containter">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Get in touch!</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="54ba2b29-9559-4d4f-b0f0-cd3b7609fe06">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your message" class="contact-inputs"></textarea>
+                    <button type="submit">Submit <img src="rightArrow.png" alt=""> </button>
+                    <div class="contact-right">
+                        <img src="">
+                    </div>
+                </form>
+            </div>
         
 
 
