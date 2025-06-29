@@ -11,11 +11,13 @@
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
+
 #openBtn {
   position: absolute;
   top: 5px;
   left:5px;
 }
+
 
 /* The sidebar links */
 .sidebar a {
@@ -27,10 +29,12 @@
   transition: 0.3s;
 }
 
+
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
 }
+
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
@@ -40,6 +44,7 @@
   font-size: 36px;
   margin-left: 50px;
 }
+
 
 /* The button used to open the sidebar */
 .openbtn {
@@ -51,15 +56,18 @@
   border: none;
 }
 
+
 .openbtn:hover {
   background-color: #444;
 }
+
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
 }
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -72,21 +80,32 @@
 
 
 
+
+
+
+
+
+
 .navbar {
   margin-left: 150px
 }
 body {
-  background-color: #82cb78
+  background-color: #31263e
+
 
 ;
 }
 
+
 .important-text {
-  border: 5px solid black;
-  background-color: #c178cb;
+  border: 5px solid #221e22;
+  background-color: #9781b1;
   padding: 5px;
+  color: black
+
 
 }
+
 
 .projectImg, .project-img, .projectImg1, .projectImg2 {
   width: 40%;
@@ -95,6 +114,7 @@ body {
   transition: box-shadow 0.3s ease;
 }
 
+
 .contact-img, .contactImg{
   width: 20%;
   border-radius: 35px;
@@ -102,30 +122,35 @@ body {
   transition: box-shadow 0.3s ease;
 }
 
+
 .cover-photo {
   margin-left: 50px;
   margin-top: 20px;
   width: 90%;
   border: 5px solid grey;
-  
+ 
 }
+
 
 .resume-img {
   width: 50%
 }
 
+
 .skill-img {
   width: 40%;
 }
-.about-and-skills {
+/* .about-and-skills {
   display: flex;
-  gap: 20px; /* Space between the two sections */
-  align-items: flex-start; /* Align to the top */
-}
+  gap: 20px;
+  align-items: flex-start;
+} */
+
 
 .important-text, .skills-div {
   flex: 1; /* Make both divs take equal width */
 }
+
 
 @media screen and (max-width: 768px) {
   .about-and-skills {
@@ -133,12 +158,14 @@ body {
   }
 }
 
+
 .skills-div {
-  background-color: #c178cb;
-  border: 5px solid black;
-  
+  background-color: #9781b1;
+  border: 5px solid #221e22;
+  color: black;
   padding: 5px;
 }
+
 
 .skills-content {
   display: flex;
@@ -146,9 +173,11 @@ body {
   align-items: center; /* vertically align items */
 }
 
+
 .skills-content p {
   flex: 1; /* allow the paragraph to take available space */
 }
+
 
 .skill-img {
   width: 200px; /* set a fixed width or percentage */
@@ -157,11 +186,13 @@ body {
  
 }
 
+
 @media screen and (max-width: 768px) {
   .skills-content {
     flex-direction: column;
     align-items: flex-start;
   }
+
 
   .skill-img {
     width: 100%; /* full width on small screens */
@@ -170,15 +201,23 @@ body {
 
 
 
-p, h2 {
+
+
+
+p, h2, h1, h3 {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
 }
 
+
 .contact-img:hover, .contactImg:hover {
   box-shadow: 5px 5px 50px #111;
 }
+
+
+
+
 
 
 
@@ -188,24 +227,22 @@ p, h2 {
   box-shadow: 5px 5px 50px #111;
 }  
 
- .background {
-  background-image: url("coverPhoto.png"); /* Relative path */
-  background-size: cover; /* Ensures the image covers the whole div */
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  
-}
+
+ 
+
 
 hr.rounded {
   border-top: 700px solid black;
   border-radius: 5px;
 }
 
+
 html, body {
   margin: 0;
   padding: 0;
 }
+
+
 
 
 .contact-container {
@@ -215,6 +252,7 @@ html, body {
   justify-content: space-evenly;
 }
 
+
 .contact-left {
   display: flex;
   flex-direction:column;
@@ -222,20 +260,23 @@ html, body {
   gap: 20px;
 }
 
+
 .contact-left-title h2 {
   font-weight: 600;
   font-size: 40px;
   margin-bottom: 5px;
 }
 
+
 .contact-left-title hr {
   border: none;
   width: 120px;
   height: 5px;
-  background-color:#111;
+  background-color:black;
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 
 .contact-inputs {
   width: 400px;
@@ -248,11 +289,14 @@ html, body {
   border-radius: 50px;
 }
 
+
 .important-contact-text {
   border: 5px solid black;
-  background-color: #c178cb;
+  background-color: #9781b1;
   padding: 5px;
+  color: black;
 }
+
 
 .contact-left textarea{
   height: 140px;
@@ -260,14 +304,18 @@ html, body {
   border-radius: 20px;
 }
 
+
 .contact-inputs:focus{
-  border: 2px solid #ff994f;
+  border: 2px solid #efd9ce;
+
 
 }
+
 
 .contacts-inputs::placeholder{
   color: #a9a9a9;
 }
+
 
 .contact-left button {
   display: flex;
@@ -278,17 +326,20 @@ html, body {
   gap: 10px;
   border: none;
   border-radius:50px;
-  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  background: linear-gradient(270deg, #cea2ac, #a998c3);
   cursor: pointer;
 }
+
 
 .contact-left button img {
   height: 15px;
 }
 
+
 .contact-right img {
   width: 500px;
 }
+
 
 @media (max-width:800px) {
   .contact-inputs{
@@ -298,3 +349,229 @@ html, body {
     display: none;
   }
 }
+
+
+
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem
+}
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  background-color: #9781b1
+}
+
+
+.home .home-content h1 {
+font-size: 6rem;
+font-weight: 700;
+line-height: 1.3;
+}
+
+
+
+
+span {
+  color: #cea2ac;
+}
+
+
+.home-content h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+
+.home-img  {
+  border-radius: 50%;
+}
+
+
+
+
+.home-img img {
+  position: relative;
+  width: 32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px solid #111;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+
+
+
+.home-img img:hover {
+  font-size: 1.8rem;
+  font-weight: 50
+}
+
+
+
+
+.social-icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 0.2rem solid #31263e;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.3s ease;
+ 
+}
+
+
+.social-icon a:hover {
+  color: black;
+  transform: scale(1.3) translateY(-5px);
+  background-color: #44355b;
+  box-shadow: 0 0 25px #44355b
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background-color: #9781b1;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: black;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  border: 2px solid black;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+
+}
+
+
+
+
+
+
+.btn:hover {
+  transform: scale3d(1.03);
+  background-color: #31263e;
+  color: #efd9ce;
+  box-shadow: 0 0 25px #31263e;
+}
+
+
+.typing-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+
+
+
+.typing-text span {
+  position: relative;
+}
+
+
+.typing-text span:before{
+  content: "Software Developer";
+  color: #cea2ac;
+  animation: words 20s infinite;
+}
+
+
+
+
+.typing-text span:after {
+  content: "";
+  background-color: #9781b1;
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid #cea2ac;
+  right: -8;
+  animation: cursor 0.6s infinite;
+}
+
+
+@keyframes cursor{
+  to{
+    border-left: 3px solid
+  }
+}
+
+
+
+
+@keyframes words {
+  0%, 20% {
+    content: "Author";
+  }
+  21%, 40% {
+    content: "Developer";
+  }
+  41%, 60% {
+    content: "Chef";
+  }
+  61%, 80% {
+    content: "Baker"
+  }
+  81%, 100% {
+    content: "Gamer";
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .home {
+    gap:4rem;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 995px){
+  .home {
+    flex-direction: column;
+    margin: 5rem 4rem;
+  }
+
+
+  .home .home-content h3 {
+    font-size: 2.5rem;
+  }
+
+
+
+
+  .home .home-content h1 {
+    font-size: 5rem;
+  }
+
+
+  .home-img img {
+    width: 70vh;
+    margin-top: 4rem;
+  }
+}
+
