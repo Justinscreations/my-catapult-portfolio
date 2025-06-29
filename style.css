@@ -54,11 +54,13 @@
   color: white;
   padding: 10px 15px;
   border: none;
+  transition: 0.3s;
 }
 
 
 .openbtn:hover {
   background-color: #444;
+
 }
 
 
@@ -135,73 +137,25 @@ body {
 
 
 .resume-img {
-  width: 50%
+  width: 60%;
+  height: 675px;
+  margin: 70px;
+  border: 5px solid #31263e;
+  border-radius: 50px;;
 }
 
 
-.skill-img {
-  width: 40%;
-}
-/* .about-and-skills {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-} */
-
-
-.important-text, .skills-div {
-  flex: 1; /* Make both divs take equal width */
+.resume-header h2 {
+  font-size: 3rem;
 }
 
-
-@media screen and (max-width: 768px) {
-  .about-and-skills {
-    flex-direction: column;
-  }
+.resume-summary h3 {
+  font-size: 2rem;
 }
 
-
-.skills-div {
-  background-color: #9781b1;
-  border: 5px solid #221e22;
-  color: black;
-  padding: 5px;
+.resume-summary li {
+  font-size: 1.25rem
 }
-
-
-.skills-content {
-  display: flex;
-  gap: 20px; /* space between text and image */
-  align-items: center; /* vertically align items */
-}
-
-
-.skills-content p {
-  flex: 1; /* allow the paragraph to take available space */
-}
-
-
-.skill-img {
-  width: 200px; /* set a fixed width or percentage */
-  height: auto;
-  border-radius: 500px;
- 
-}
-
-
-@media screen and (max-width: 768px) {
-  .skills-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-
-  .skill-img {
-    width: 100%; /* full width on small screens */
-  }
-}
-
-
 
 
 
@@ -649,3 +603,4 @@ span {
     width: 90%;
   }
 }
+
