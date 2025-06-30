@@ -477,21 +477,37 @@ span {
 
 
 @keyframes words {
-  0%, 20% {
+  0%, 10% {
     content: "Author";
   }
-  21%, 40% {
+  11%, 20% {
     content: "Developer";
   }
-  41%, 60% {
+  21%, 30% {
     content: "Chef";
   }
-  61%, 80% {
+  31%, 40% {
     content: "Baker"
   }
-  81%, 100% {
+  41%, 50% {
     content: "Photographer";
   }
+  51%, 60% {
+    content: "chef"
+  }
+  61%, 70% {
+    content: "Baker"
+  }
+  71%, 80% {
+    content: "Author"
+  }
+  81%, 90% {
+    content: "Developer"
+  }
+  91%, 100%{
+    content: "Photographer"
+  }
+
 }
 
 
